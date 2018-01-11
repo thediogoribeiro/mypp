@@ -7,4 +7,5 @@ gem 'wdm', platforms: [:mswin, :mingw]
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 gem 'middleman-s3_sync'
 gem 'middleman-livereload'
+gem 'bootstrap-sass'
 gem 'slim'
