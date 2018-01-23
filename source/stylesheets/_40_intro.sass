@@ -6,6 +6,23 @@ body
 	.intro__image
 		text-align: center
 		img
-			border-radius: 200px
-			height: 300px
-			border: 2.5px solid $white
+			@media screen and (min-width: $lg)
+				border-radius: 200px
+				height: 300px
+				border: 2.5px solid $white
+			@media screen and (min-width: $m) and (max-width: $lg - 1)
+				border-radius: 200px
+				height: 250px
+				border: 2.5px solid $white
+			@media screen and (min-width: $smp) and (max-width: $m - 1)
+				border-radius: 200px
+				height: 200px
+				border: 2px solid $white
+			@media screen and (min-width: $sm) and (max-width: $smp - 1)
+				border-radius: 200px
+				height: 150px
+				border: 2px solid $white
+			@media screen and (min-width: $xs) and (max-width: $sm - 1)
+				border-radius: 200px
+				height: 125px
+				border: 2px solid $white
