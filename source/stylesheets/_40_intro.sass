@@ -5,24 +5,38 @@ body
 #intro
 	.intro__image
 		text-align: center
-		img
+		@media screen and (min-width: $lg)
+			margin-bottom: 80px
+		@media screen and (min-width: $sm) and (max-width: $lg - 1)
+			margin-bottom: 64px
+		@media screen and (min-width: $xs) and (max-width: $sm - 1)
+			margin-bottom: 40px
+	img
+		@media screen and (min-width: $lg)
+			border-radius: 200px
+			height: 300px
+			border: 2.5px solid $white
+		@media screen and (min-width: $m) and (max-width: $lg - 1)
+			border-radius: 200px
+			height: 250px
+			border: 2.5px solid $white
+		@media screen and (min-width: $smp) and (max-width: $m - 1)
+			border-radius: 200px
+			height: 200px
+			border: 2px solid $white
+		@media screen and (min-width: $sm) and (max-width: $smp - 1)
+			border-radius: 200px
+			height: 150px
+			border: 2px solid $white
+		@media screen and (min-width: $xs) and (max-width: $sm - 1)
+			border-radius: 200px
+			height: 125px
+			border: 2px solid $white
+	.intro__text
+		h1
 			@media screen and (min-width: $lg)
-				border-radius: 200px
-				height: 300px
-				border: 2.5px solid $white
-			@media screen and (min-width: $m) and (max-width: $lg - 1)
-				border-radius: 200px
-				height: 250px
-				border: 2.5px solid $white
-			@media screen and (min-width: $smp) and (max-width: $m - 1)
-				border-radius: 200px
-				height: 200px
-				border: 2px solid $white
-			@media screen and (min-width: $sm) and (max-width: $smp - 1)
-				border-radius: 200px
-				height: 150px
-				border: 2px solid $white
+				margin-bottom: 72px
+			@media screen and (min-width: $sm) and (max-width: $lg - 1)
+				margin-bottom: 48px
 			@media screen and (min-width: $xs) and (max-width: $sm - 1)
-				border-radius: 200px
-				height: 125px
-				border: 2px solid $white
+				margin-bottom: 24px
