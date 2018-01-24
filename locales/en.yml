@@ -1,13 +1,11 @@
 en:
   # intro
-  intro_text1: "Hi! Nice to meet you, my name is Diogo!"
+  intro_text1: "Hi! Nice to meet you, my name is Diogo and I'm a Freelancer!"
 
-  intro_text2: "I'm an industrial engineering graduate from FEUP that decided to change his professional life in early 2017 moving into technology."
+  intro_text2: "I'm an industrial engineering graduate from FEUP that decided to change his professional life in early 2017 moving into technology. I love music and I'm a big hiphop fan! On my free time, beside going out and partying, I game a lot!"
 
-  intro_text3: "As a Freelancer I can help you develop your website! My portfolio is based on frontend but can scratch something on backend too! You can visit expresso viagens, made in alpha and karkey's websites to check my work"
+  intro_text3: "As a developer I can help you with your website! My portfolio is based on frontend but can scratch something on backend too! You can visit <a href=https://expressoviagens.com/>expresso viagens</a>, <a href=https://www.madeinalpha.com/>made in alpha</a> and karkey's websites to check my work."
 
-  intro_text4: "I also spend a lot of my time on the crypto world. I'm participating in this new revolution as an investor, miner and looking forward to learn how to code on a blockchain. New projects coming soon!"
+  intro_text4: "I also spend a lot of my time on the crypto world too. I'm participating in this new revolution as an investor, miner and looking forward to learn how to code on a blockchain. New projects coming soon!"
 
-  intro_text5: "On my free time, beside going out and partying, I game a lot!"
-
-  intro_text6: "You can follow my thoughts on twitter, connect professionaly with me on Linkedin or relax a bit and check my gaming skills on twitch!" 
+  intro_text5: "You can follow my thoughts on <a href=https://twitter.com/ShinOBarbaro>twitter</a>, connect professionaly with me on <a href=https://www.linkedin.com/in/jos%C3%A9-diogo-ribeiro-4390a86b/>Linkedin</a> or relax a bit and check my gaming skills on <a href=https://www.twitch.tv/shinobarbaro>twitch</a>!" 

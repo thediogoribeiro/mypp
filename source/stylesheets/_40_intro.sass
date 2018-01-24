@@ -33,10 +33,16 @@ body
 			height: 125px
 			border: 2px solid $white
 	.intro__text
-		h1
+		#text--1,
+		#text--2,
+		#text--3,
+		#text--4
 			@media screen and (min-width: $lg)
 				margin-bottom: 72px
 			@media screen and (min-width: $sm) and (max-width: $lg - 1)
 				margin-bottom: 48px
 			@media screen and (min-width: $xs) and (max-width: $sm - 1)
 				margin-bottom: 24px
+		a
+			color: $white
+			text-decoration-color: $yellow

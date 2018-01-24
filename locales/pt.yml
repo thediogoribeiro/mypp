@@ -1,13 +1,11 @@
 pt:
   # intro
-  intro_text1: "Olá! Obrigado pela visita, o meu nome é Diogo!"
+  intro_text1: "Olá! Obrigado pela visita. O meu nome é Diogo e sou Freelancer!"
 
-  intro_text2: "Sou um estudante de engenharia industrial da FEUP que decidiu mudar o rumo da sua vida profissional e dedicar-se à tecnologia."
+  intro_text2: "Sou um ex-estudante de engenharia industrial da FEUP que decidiu mudar o rumo da sua vida profissional e dedicar-se à tecnologia. Adoro música e sou grande fã de hiphop. No meu tempo livre, além de sair e festas, jogo bastante computador!"
 
-  intro_text3: "Como Freelancer posso ajudar-te a desenvolver o teu site! O meu portfólio consiste, principalmente, em frontend mas também consigo ajudar (pouquinho, ainda) com o backend. Podes visitar os websites da expresso viagens, made in alpha e karkey para ficares a conhecer o meu trabalho."
+  intro_text3: "Como Freelancer posso ajudar-te a desenvolver o teu site! O meu portfólio consiste, principalmente, em frontend mas também consigo ajudar (pouquinho, ainda) com o backend. Podes visitar os websites da <a href=https://expressoviagens.com/>expresso viagens</a>, <a href=https://www.madeinalpha.com/>made in alpha</a> e karkey para ficares a conhecer o meu trabalho."
 
   intro_text4: "Também invisto muito do meu tempo no mundo das cryptomoedas. Neste momento participo nesta revolução como investidor, miner e procuro aprender a programar em blockchains. Novos projectos para um futuro próximo!"
 
-  intro_text5: "No meu tempo livre, além de sair e festas, jogo bastante computador!"
-
-  intro_text6: "Consegues acompanhar os meus devaneios no twitter, conectar profissionalmente comigo no Linkedin ou relaxar e comprovar as minhas gaming skills no meu canal de twitch!"
+  intro_text5: "Consegues acompanhar os meus devaneios no <a href=https://twitter.com/ShinOBarbaro>twitter</a>, conectar profissionalmente comigo no <a href=https://www.linkedin.com/in/jos%C3%A9-diogo-ribeiro-4390a86b/>Linkedin</a> ou relaxar e comprovar as minhas gaming skills no meu canal de <a href=https://www.twitch.tv/shinobarbaro>twitch!</a>!"
