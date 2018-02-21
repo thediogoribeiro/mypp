@@ -1,13 +1,3 @@
-GIT
-  remote: https://github.com/georgecheng/middleman-imageoptim
-  revision: 39f50bc1c40d17150d388d88a290718180f15c3d
-  specs:
-    middleman-imageoptim (0.2.1)
-      image_optim (~> 0.20.2)
-      image_optim_pack (~> 0.2.1)
-      middleman-cli
-      middleman-core (>= 3.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -193,10 +183,11 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  image_optim
+  image_optim_pack
   middleman
   middleman-autoprefixer
   middleman-deploy (~> 2.0.0.pre.alpha)
-  middleman-imageoptim (~> 0.2.1)!
   middleman-livereload
   middleman-minify-html
   middleman-s3_sync

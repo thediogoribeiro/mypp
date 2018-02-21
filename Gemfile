@@ -10,4 +10,5 @@ gem 'middleman-livereload'
 gem 'bootstrap-sass'
 gem 'slim'
 gem 'middleman-minify-html'
-gem "middleman-imageoptim", "~> 0.2.1", :git => "https://github.com/georgecheng/middleman-imageoptim"
+gem 'image_optim'
+gem 'image_optim_pack'
