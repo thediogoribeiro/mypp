@@ -59,7 +59,8 @@ configure :build do
   activate :minify_html
 
   # Optimise Images on build
-  activate :imageoptim
+  # activate :imageoptim
+
 end
 
 # Deployment to production with 'middleman-s3_sync'
