@@ -1,6 +1,7 @@
 body
-	background: url(/images/mysite-bg8.jpg) center no-repeat
-	background-size: cover
+	//background: url(/images/mysite-bg8.jpg) center no-repeat
+	//background-size: cover
+	background-color: #F0F0EE
 
 #intro
 	.intro__image
@@ -13,25 +14,30 @@ body
 			margin-bottom: 40px
 	img
 		@media screen and (min-width: $lg)
-			border-radius: 200px
+			border-radius: 150px
 			height: 300px
-			border: 2.5px solid $white
+			width: 315px
+			border: 2px solid $black
 		@media screen and (min-width: $m) and (max-width: $lg - 1)
-			border-radius: 200px
+			border-radius: 150px
 			height: 250px
-			border: 2.5px solid $white
+			width: 265px
+			border: 2px solid $black
 		@media screen and (min-width: $smp) and (max-width: $m - 1)
-			border-radius: 200px
+			border-radius: 150px
 			height: 200px
-			border: 2px solid $white
+			width: 215px
+			border: 1px solid $black
 		@media screen and (min-width: $sm) and (max-width: $smp - 1)
-			border-radius: 200px
+			border-radius: 150px
 			height: 150px
-			border: 2px solid $white
+			width: 160px
+			border: 1px solid $black
 		@media screen and (min-width: $xs) and (max-width: $sm - 1)
-			border-radius: 200px
+			border-radius: 150px
 			height: 125px
-			border: 2px solid $white
+			width: 135px
+			border: 1px solid $black
 	.intro__text
 		#text--1,
 		#text--2,
@@ -44,5 +50,5 @@ body
 			@media screen and (min-width: $xs) and (max-width: $sm - 1)
 				margin-bottom: 24px
 		a
-			color: $white
-			text-decoration-color: $yellow
+			color: $black
+			text-decoration-color: $dark-yellow

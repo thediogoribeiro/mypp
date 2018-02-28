@@ -1,6 +1,6 @@
 // This is where it all goes :)
-function toggle_visibility(id) {
-	var e = document.getElementById(id);
+function toggle_visibility() {
+	var e = document.getElementById('nav__dropdown');
 	if(e.style.display == 'block')
 		e.style.display = 'none';
   else

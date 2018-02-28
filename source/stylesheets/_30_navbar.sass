@@ -1,16 +1,25 @@
 #navbar
 	.nav__content
-		display: grid
-		grid-template-rows: 1fr
-		grid-template-columns: 1fr 1fr
-		.nav__name
-			grid-row: 1
-			grid-column: 1
-			text-align: left
-		.nav__contacts
-			grid-row: 1
-			grid-column: 2
-			text-align: right
+		.nav__icons
+			display: grid
+			grid-template-rows: 1fr
+			grid-template-columns: 1fr 1fr
+			.nav__icon--1
+				grid-row: 1
+				grid-column: 1
+				text-align: left
+				h3
+					padding: 5px
+					width: 105px
+			.nav__icon--2
+				grid-row: 1
+				grid-column: 2
+				text-align: right
+				margin-top: 14px
 			a
-				color: $white
+				color: $black
 				text-decoration: none
+			li
+				list-style-type: none
+			p
+				margin-right: 1.5%

@@ -1,7 +1,12 @@
 #navbar
 	.nav__content
-		.nav__name
-			h3.text--white José Diogo C. C. Branco Ribeiro
-		.nav__contacts
-			h3.text--white =link_to "diogo@iamdiogoribeiro.com", "mailto: diogo@iamdiogoribeiro.com"
+		.nav__icons
+			.nav__icon--1
+				h3.text--black.button =link_to "Get in touch", "mailto:diogo@iamdiogoribeiro.com"
+			.nav__icon--2 
+				ul.fas.fa-globe.fa-2x on-click="toggle_visibility()"
+				ul#nav__dropdown.hide
+					li.nav__drop__content
+						p.text--black =link_to "pt", "/pt"
+						p.text--black =link_to "en", "/"
 			
