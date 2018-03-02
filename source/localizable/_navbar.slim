@@ -1,10 +1,15 @@
 #navbar
 	.nav__content
 		.nav__icons
-			.nav__icon--1
-				h3.text--black.button =link_to "Get in touch", "mailto:diogo@iamdiogoribeiro.com"
-			.nav__icon--2 
-				ul.fas.fa-globe.fa-2x on-click="toggle_visibility()"
+			.nav__icon--left
+				a.nav__icon--1 href="mailto:diogo@iamdiogoribeiro.com"
+					i.fas.fa-envelope.fa-2x
+				a.nav__icon--2 href="https://twitter.com/ShinOBarbaro"
+					i.fab.fa-twitter.fa-2x
+				a.nav__icon--3 href="https://www.linkedin.com/in/jos%C3%A9-diogo-ribeiro-4390a86b"
+					i.fab.fa-linkedin-in.fa-2x
+			.nav__icon--right 
+				.fas.fa-globe.fa-2x on-click="toggle_visibility()"
 				ul#nav__dropdown.hide
 					li.nav__drop__content
 						p.text--black =link_to "pt", "/pt"

@@ -2,10 +2,14 @@ en:
   # intro
   intro_text1: "I'm Diogo, a freelance front-end developer working from Porto, nice to meet you!"
 
-  intro_text2: "I studied Industrial Engineering at FEUP but after starting working decided to change path into tech. I love music and I'm a big hip-hop fan! During my free time besides going out party I also tend to game quite a lot!"
+  intro_text2: "I studied Industrial Engineering at FEUP but after starting working decided to change path into tech. I'm a big hip-hop fan and during my free time, besides going out party, I also tend to game quite a lot!"
 
-  intro_text3: "As a front-end developer I can help you bring your design's to life on the web! As I continue to develop my skills, soon you can also expect to see some backend magic. For my previous works I helped out bring to life <a href=https://expressoviagens.com/>Expresso Viagens</a>, <a href=https://www.madeinalpha.com/>Made in Alpha</a>, and Karkey's websites."
+  intro_text3: "As a front-end developer I can help you bring your design's to life on the web! As I continue to develop my skills, soon you can also expect to see some backend magic."
 
-  intro_text4: "I've been also recently quite pulled towards blockchain/cryptocurrencies and started experimented with them. Not only I'm participating on this new revolution as an investor, but I also mine and currently learn how to code smart contract as a hobby. I can help with any related mining queries or troubleshooting. Request a quote over <a href=mailto: diogo@iamdiogoribeiro.com>email</a>."
+  intro_text4: "For my previous works I helped out bring to life <a href=https://expressoviagens.com/>Expresso Viagens</a>, <a href=https://www.madeinalpha.com/>Made in Alpha</a>, and Karkey's websites."
 
-  intro_text5: "You can follow my thoughts on <a href=https://twitter.com/ShinOBarbaro>Twitter</a>, connect professionally over <a href=https://www.linkedin.com/in/jos%C3%A9-diogo-ribeiro-4390a86b/>Linkedin</a> or check how I rage while I game PUBG live on <a href=https://www.twitch.tv/shinobarbaro>Twitch</a>!"
+  intro_text5: "I've been also recently quite pulled towards blockchain/cryptocurrencies and started experimented with them." 
+
+  intro_text6: "Not only I'm participating on this new revolution as an investor, but I also mine and currently learn how to code smart contract as a hobby. I can help with any related mining queries or troubleshooting. Request a quote over <a href=mailto: diogo@iamdiogoribeiro.com>email</a>."
+
+  intro_text7: "You can follow my thoughts on <a href=https://twitter.com/ShinOBarbaro>Twitter</a>, connect professionally over <a href=https://www.linkedin.com/in/jos%C3%A9-diogo-ribeiro-4390a86b/>Linkedin</a> or check how I rage while I game PUBG live on <a href=https://www.twitch.tv/shinobarbaro>Twitch</a>!"
