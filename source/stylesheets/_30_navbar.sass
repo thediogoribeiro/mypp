@@ -17,6 +17,21 @@
 				grid-column: 4
 				text-align: right
 				margin-top: 14px
+				.nav__drop__content
+					position: absolute
+					display: inline-block
+					@media screen and (min-width: $xs) and (max-width: $sm - 1)
+						right: 35px
+					@media screen and (min-width: $sm) and (max-width: $m - 1)
+						right: 39px
+					@media screen and (min-width: $m) and (max-width: $lg - 1)
+						right: 105px
+					@media screen and (min-width: $lg) and (max-width: $xl - 1)
+						right: 129px
+					@media screen and (min-width: $xl) and (max-width: $xxl - 1)
+						right: 136px 
+					@media screen and (min-width: $xxl)
+						right: 223px 
 			a
 				color: $black
 				text-decoration: none
