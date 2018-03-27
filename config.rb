@@ -10,6 +10,9 @@ end
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
+##### page 'explicador.iamdiogoribeiro.com/*', :layout => "explicador"
+page '/', :layout => "explicador"
+
 # Per-page layout changes
 page '/*.xml', layout: false
 page '/*.json', layout: false

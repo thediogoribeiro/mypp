@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title><%= current_page.data.title || "Diogo Ribeiro" %></title>
+    <meta name="description" content="I'm a front-end developer and crypto enthusiast. As a Freelancer I can help build your website and/or your mining rig.">
+    <meta name="keywords" content="diogo ribeiro, diogo, ribeiro, porto, portugal, ermesinde, explicação, explicacao, explicar, matematica, matemática">
+    <meta name="author" content="Diogo Ribeiro">
+    <!-- Mobile Viewport Optimised -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <!-- fontawesome icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- Google analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115003153-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115003153-1');
+    </script>
+
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
