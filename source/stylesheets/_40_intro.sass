@@ -2,31 +2,48 @@ body
 	background-color: #F0F0EE
 
 #intro
-	z-index: -1
-	.intro__image
-		text-align: center
-		@media screen and (min-width: $lg)
-			margin-bottom: 80px
-		@media screen and (min-width: $sm) and (max-width: $lg - 1)
-			margin-bottom: 64px
-		@media screen and (min-width: $xs) and (max-width: $sm - 1)
-			margin-bottom: 40px
-	img
-		@media screen and (min-width: $lg)
-			border-radius: 150px
-			height: 300px
-		@media screen and (min-width: $m) and (max-width: $lg - 1)
-			border-radius: 150px
-			height: 250px
-		@media screen and (min-width: $smp) and (max-width: $m - 1)
-			border-radius: 150px
-			height: 200px
-		@media screen and (min-width: $sm) and (max-width: $smp - 1)
-			border-radius: 150px
-			height: 150px
-		@media screen and (min-width: $xs) and (max-width: $sm - 1)
-			border-radius: 150px
-			height: 125px
+	.intro__images
+		display: grid
+		grid-template-rows: 1fr
+		grid-template-columns: 1fr 1fr 1fr
+		.intro__photo
+			grid-row: 1
+			grid-column: 2 / 3
+			text-align: center
+			@media screen and (min-width: $lg)
+				margin-bottom: 80px
+			@media screen and (min-width: $sm) and (max-width: $lg - 1)
+				margin-bottom: 64px
+			@media screen and (min-width: $xs) and (max-width: $sm - 1)
+				margin-bottom: 40px
+			img
+				@media screen and (min-width: $lg)
+					border-radius: 150px
+					height: 300px
+				@media screen and (min-width: $m) and (max-width: $lg - 1)
+					border-radius: 150px
+					height: 250px
+				@media screen and (min-width: $smp) and (max-width: $m - 1)
+					border-radius: 150px
+					height: 200px
+				@media screen and (min-width: $sm) and (max-width: $smp - 1)
+					border-radius: 150px
+					height: 150px
+				@media screen and (min-width: $xs) and (max-width: $sm - 1)
+					border-radius: 150px
+					height: 125px
+		.intro__zaask
+			grid-row: 1
+			grid-column: 2 / 3
+			margin-top: 80%
+			text-align: right
+			margin-right: -25%
+			a
+				padding: 0
+				margin: 0
+			img
+				height: 50%
+				width: 50%
 	.intro__text
 		#text--1,
 		#text--2,
