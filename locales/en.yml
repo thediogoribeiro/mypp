@@ -1,34 +1,22 @@
 en:
   # intro
   intro_title1: "Hi 🙋‍♂️,"
-  intro_text1: "I'm Diogo, a freelance front-end developer working from Porto, nice to meet you!"
-
+  intro_text1: "I'm Diogo, an engineer in Porto working across software, application operations and reliability."
   intro_title2: "About me 💁‍♂️"
-  intro_text2: "I studied Industrial Engineering at FEUP but after starting working decided to change path into tech. I'm a big hip-hop fan and during my free time, besides going out party, I also tend to game quite a lot!"
-
-  intro_title3: "Developer 🖥"
-  intro_text3: "As a front-end developer I can help you bring your design's to life on the web!"
-
-  intro_text4: "For my previous works I helped out bring to life <a href=https://expressoviagens.com/>Expresso Viagens</a> and helped <a href=https://www.madeinalpha.com/>Made in Alpha</a> with some of their projects."
-
-  intro_text5: "I'm currently developing digital products with a group of Freelancers at <a href=https://www.zetazone.eu/>Zeta Zone</a>. You can get in touch with <a href=mailto: josediogoccbr@gmail.com>me</a> personally, but if you need a team to work with you can request a quote by sending and email to our <a href=mailto: info@zetazone.eu>studio</a>."
-
-  intro_title6: "Side projects 🤹‍♂️"
-  intro_text6: "Since 2017, I've been also quite pulled towards cryptocurrencies and I'm participating on this new revolution as an investor and as a miner. I can also help with any related mining queries or troubleshooting."
-
-  intro_text7: "As an old school gamer, I'm also trying to add value to Portuguese Esports scene with <a href=https://www.zetazone.eu/>The Agency Clan</a>, which I'm a board member."
-
-  intro_title8: "Social media 📱"
-  intro_text8: "You can check some of my work on <a href=https://github.com/thediogoribeiro>Github</a>, connect professionally over <a href=https://www.linkedin.com/in/diogo-ribeiro-4390a86b/>Linkedin</a> or follow my thoughts on <a href=https://twitter.com/ShinOBarbaro>Twitter</a>!"
+  intro_text2: "I studied Industrial Engineering at FEUP. I’m a big hip-hop fan and during my free time I enjoy gaming and learning how things work."
+  intro_title3: "Engineering 🖥"
+  intro_text3: "My work has grown from software development into application engineering, production support, DevOps and reliability."
+  intro_text4: "At Fater, I used production data to follow line performance and plan maintenance. That early experience taught me to notice the small signals that can prevent bigger problems."
+  intro_text5: "At Made In Alpha, Proflands and Critical TechWorks, I learned to build with distributed teams, designers and product people, carrying features from ideas through implementation and testing."
+  intro_title6: "Outside the day job 🤹‍♂️"
+  intro_text6: "At university I started “Entregas E Agora?”, a home-delivery service. From 2019 to 2025 I was a board member of The Agency Clan, an esports team and association."
+  intro_text7: "I occasionally advise Rucodel, a small manufacturing business, on process improvement and practical AI-assisted software ideas."
+  intro_title8: "Say hello 📱"
+  intro_text8: "You can find me on <a href=https://github.com/thediogoribeiro>GitHub</a>, connect on <a href=https://www.linkedin.com/in/jos%C3%A9-diogo-ribeiro-4390a86b>LinkedIn</a>, or follow <a href=https://twitter.com/ShinOBarbaro>Twitter</a>."
 
   # intro-ex
-
   intro_text9: "O meu nome é Diogo, sou programador de front-end e sou de Ermesinde. Paralelamente à programação também dou explicações de matemática."
-
   intro_text10: "Estou disponível para dar explicações na area metropolitana do Porto e através de internet (skype, hangouts, etc). Qualquer dúvida não hesitem em contactar-me via <a href=mailto: diogo@iamdiogoribeiro.com>email</a>."
-
   intro_text11: "Sou formado em Engenharia Industrial na FEUP com uma média de ingresso de 17.9 valores e classificação de 19.6 no exame nacional de matemática."
-
   intro_text12: "Enquanto explicador ajudei os alunos a subir a média e a prepararem-se para os exames nacionais. Desenvolvi a actividade durante faculdade mas interrompi para exercer Engenharia. Recentemente decidi fazer uma mudança no meu percurso profissional e neste momento dedico o meu tempo à tecnologia e à sua aplicação no quotidiano."
-
-  intro_text13: Consegues acompanhar os meus pensamentos no <a href=https://twitter.com/ShinOBarbaro>Twitter</a>, conectar profissionalmente comigo no <a href=https://www.linkedin.com/in/jos%C3%A9-diogo-ribeiro-4390a86b/>Linkedin</a> ou assistir à minha ira enquanto jogo PUBG live no <a href=https://www.twitch.tv/shinobarbaro>Twitch!</a>!"
+  intro_text13: "Consegues acompanhar os meus pensamentos no <a href=https://twitter.com/ShinOBarbaro>Twitter</a>, conectar profissionalmente comigo no <a href=https://www.linkedin.com/in/jos%C3%A9-diogo-ribeiro-4390a86b/>LinkedIn</a> ou assistir à minha ira enquanto jogo PUBG live no <a href=https://www.twitch.tv/shinobarbaro>Twitch!</a>!"

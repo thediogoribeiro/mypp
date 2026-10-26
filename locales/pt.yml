@@ -1,15 +1,11 @@
 pt:
-  # intro
-  intro_text1: "O meu nome é Diogo, sou programador de front-end e trabalho no Porto. Prazer em conhecer-te!"
-
-  intro_text2: "Formei-me em Engenharia Industrial na FEUP mas depois de começar a trabalhar na área decidi mudar o percurso profissional e dedicar-me à tecnologia. Sou fã de hip-hop e no meu tempo livre, além de sair com os meus amigos, jogo bastante computador!"
-
-  intro_text3: "Como programador de front-end, consigo trazer a tua ideia para o mundo web! Como continuo a desenvolver as minhas skills, futuramente poderás contar com a minha ajuda também no back-end."
-
-  intro_text4: "Nos meus trabalhos anteriores, ajudei o estúdio da <a href=https://www.madeinalpha.com/>Made in Alpha</a> em alguns dos seus projectos e criar o website da <a href=https://expressoviagens.com/>Expresso Viagens</a>."
-
-  intro_text5: "Neste momento, estou a criar produtos digitais com um grupo de Freelancers no <a href=https://www.zetazone.eu/>Zeta Zone</a>. Podes abordar-me pessoalmente através do meu <a href=mailto: josediogoccbr@gmail.com>email</a>, mas caso necessites de uma equipa para trabalhar, a melhor forma será pedir um orçamento ao nosso <a href=mailto: info@zetazone.eu>estúdio digital</a>."
-
-  intro_text6: "Desde 2017 que ando debruçado sobre cryptocurrencies sendo que a minha participação, nesta revolução, não é só como investidor mas também como miner. Por isso, também consigo ajudar-te em assuntos relacionados com mining."
-
-  intro_text7: "Consegues acompanhar alguns dos meus trabalhos no <a href=https://github.com/thediogoribeiro>Github</a>, conectar profissionalmente comigo no <a href=https://www.linkedin.com/in/jos%C3%A9-diogo-ribeiro-4390a86b/>Linkedin</a> ou seguir os meus pensamentos no <a href=https://twitter.com/ShinOBarbaro>Twitter</a>!"
+  # The English personal story is the current home page. Keep the legacy
+  # explainer page copy separate from it.
+  intro_text1: "O meu nome é Diogo, sou programador de front-end e sou de Ermesinde."
+  intro_text2: "Formei-me em Engenharia Industrial na FEUP. Sou fã de hip-hop e, nos tempos livres, gosto de jogar e de perceber como as coisas funcionam."
+  intro_text3: "O meu percurso levou-me do desenvolvimento de software à engenharia aplicacional, suporte de produção, DevOps e fiabilidade."
+  intro_text4: "Na Fater, usei dados de produção para acompanhar o desempenho das linhas e planear manutenção. Foi aí que comecei a reparar nos pequenos sinais que podem evitar problemas maiores."
+  intro_text5: "Na Made In Alpha, Proflands e Critical TechWorks, aprendi a construir com equipas distribuídas, designers e pessoas de produto, acompanhando funcionalidades desde a ideia até à implementação e aos testes."
+  intro_text6: "Na universidade, comecei o “Entregas E Agora?”, um serviço de entregas ao domicílio. Entre 2019 e 2025, fui membro da direção da The Agency Clan, uma equipa e associação de esports."
+  intro_text7: "Ocasionalmente, aconselho a Rucodel, uma pequena empresa de produção, sobre melhoria de processos e ideias práticas de software com apoio de IA."
+  intro_text8: "Podes encontrar-me no <a href=https://github.com/thediogoribeiro>GitHub</a>, contactar-me pelo <a href=https://www.linkedin.com/in/jos%C3%A9-diogo-ribeiro-4390a86b>LinkedIn</a> ou acompanhar-me no <a href=https://twitter.com/ShinOBarbaro>Twitter</a>."
