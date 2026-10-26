@@ -7,6 +7,7 @@ body
 	-moz-osx-font-smoothing: grayscale
 
 #navbar
+	position: relative
 	max-width: 1080px
 	margin: 0 auto
 	padding: 28px 42px
@@ -22,9 +23,13 @@ body
 		text-decoration: none
 		span
 			color: #d2704f
-	.nav__icons
+	.nav__content nav.nav__icons
 		display: flex
+		align-items: center
+		justify-content: flex-end
+		flex-wrap: nowrap
 		gap: 27px
+		white-space: nowrap
 		a
 			color: #52615a
 			font-size: .82rem
@@ -33,6 +38,8 @@ body
 			transition: color .2s ease
 			&:hover, &:focus-visible
 				color: #c86343
+	.nav__toggle
+		display: none
 
 #intro
 	max-width: 1080px
@@ -120,13 +127,50 @@ body
 		span
 			padding: 0 5px
 
-@media screen and (max-width: 640px)
+@media screen and (max-width: 769px)
 	#navbar
+		z-index: 5
 		padding: 21px 22px
-		.nav__icons
-			gap: 15px
+		.nav__content
+			gap: 12px
+		.nav__toggle
+			display: flex
+			width: 42px
+			height: 42px
+			padding: 11px 9px
+			flex-direction: column
+			justify-content: space-between
+			border: 1px solid #dcded5
+			border-radius: 9px
+			background: #fffefa
+			cursor: pointer
+			span
+				display: block
+				height: 2px
+				width: 100%
+				border-radius: 2px
+				background: #24312c
+		.nav__content nav.nav__icons
+			position: absolute
+			top: calc(100% - 10px)
+			right: 22px
+			left: 22px
+			display: none
+			align-items: stretch
+			flex-direction: column
+			gap: 0
+			padding: 8px
+			border: 1px solid #e5e3da
+			border-radius: 12px
+			background: #fffefa
+			box-shadow: 0 16px 36px rgba(39, 54, 46, .13)
+			&.is-open
+				display: flex
 			a
-				font-size: .72rem
+				padding: 12px 13px
+				font-size: .9rem
+				& + a
+					border-top: 1px solid #eeece5
 	#intro
 		padding: 35px 24px 66px
 		.intro__hero
@@ -152,11 +196,6 @@ body
 				font-size: .68rem
 
 @media screen and (max-width: 390px)
-	#navbar
-		.nav__icons
-			gap: 10px
-			a
-				font-size: .66rem
 	#intro
 		padding-right: 20px
 		padding-left: 20px
